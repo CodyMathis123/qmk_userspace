@@ -7,6 +7,21 @@
 #define U_NA KC_NO  // present but not available for use
 #define U_NU KC_NO  // available but not used
 
+// macOS shortcuts
+#define Z_UND   G(KC_Z)
+#define Z_CUT   G(KC_X)
+#define Z_CPY   G(KC_C)
+#define Z_PST   G(KC_V)
+#define Z_LOCK  C(G(KC_Q))
+#define Z_SLEEP A(G(KC_PWR))
+#define Z_SHUT  C(A(G(KC_PWR)))
+#define Z_SSAVE HYPR(KC_S)
+
+// Application shortcuts
+#define SA_UP  S(A(KC_UP))
+#define SA_DN  S(A(KC_DOWN))
+#define SG_SPC LSG(KC_SPC)
+
 // cut / copy / paste / undo / redo / select all
 #define U_CUT C(KC_X)
 #define U_CPY C(KC_C)
