@@ -7,7 +7,6 @@ SPACE_CADET_ENABLE = no
 # Enable common features
 LTO_ENABLE = yes
 COMBO_ENABLE = yes
-SWAP_HANDS_ENABLE = yes
 
 VPATH += $(USER_PATH)/features
 INTROSPECTION_KEYMAP_C = combos.c
