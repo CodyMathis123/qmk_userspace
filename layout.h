@@ -115,7 +115,7 @@
  */
 #define _MOUR \
         KC_EQL, QK_RBT, U_NA, U_NA, U_NA, U_NA, U_NU, U_NU, U_NU, U_NU, U_NU, KC_MINS, \
-        KC_LCTL, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, U_NA, U_NU, MS_LEFT, MS_DOWN, MS_UP, MS_RIGHT, KC_BSLS, \
+        KC_LCTL, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, U_NA, U_NU, MS_LEFT, MS_DOWN, MS_UP, MS_RGHT, KC_BSLS, \
         KC_CAPS, U_NA,    KC_ALGR, U_NA,    U_NA,    U_NA, U_NU, MS_WHLL, MS_WHLD, MS_WHLU, MS_WHLR, KC_SCLN, \
                                     U_NA, U_NA, U_NA, MS_BTN1, MS_BTN3, MS_BTN2
 /* ,-----------------------------------------.                ,-----------------------------------------.
