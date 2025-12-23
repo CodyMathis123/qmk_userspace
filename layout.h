@@ -21,6 +21,13 @@
 // run window
 #define U_RUN RGUI(KC_R)
 
+// Tap hold macros
+#define TH_M    LT(0,KC_M)
+#define TH_COMM LT(0,KC_COMM)
+#define TH_DOT  LT(0,KC_DOT)
+#define TH_SLSH LT(0,KC_SLSH)
+#define TH(k1,k2,k3,k4) LT(0,k1),LT(0,k2),LT(0,k3),LT(0,k4)
+
 // Home row mod-tap macros
 #define HM_A	LGUI_T(KC_A)
 #define HM_S	LALT_T(KC_S)
