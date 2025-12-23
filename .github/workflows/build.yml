@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        keyboard: [cornelius]
+        keyboard: [cornelius, cornelius2]
 
     steps:
     - name: Checkout QMK
