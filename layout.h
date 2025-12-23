@@ -82,7 +82,7 @@
                                `--------------------'  `--------------------'
  */
 #define _MEDR \
-        KC_EQL, QK_RBT, U_NA, U_NA, U_NA, U_NA, RGB_TOG, RGB_MOD, RGB_HUI, RGB_SAI, RGB_VAI, KC_MINS, \
+        KC_EQL, QK_RBT, U_NA, U_NA, U_NA, U_NA, UG_TOGG, U_NA, U_NA, U_NA, U_NA, KC_MINS, \
         KC_LCTL, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, U_NA, U_NU, KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT, KC_BSLS, \
         KC_CAPS, U_NA, KC_ALGR, U_NA, U_NA, U_NA, U_NU, U_NU, U_NU, U_NU, U_NU, KC_SCLN, \
                                     U_NA, U_NA, U_NA, KC_MSTP, KC_MPLY, KC_MUTE
@@ -115,9 +115,9 @@
  */
 #define _MOUR \
         KC_EQL, QK_RBT, U_NA, U_NA, U_NA, U_NA, U_NU, U_NU, U_NU, U_NU, U_NU, KC_MINS, \
-        KC_LCTL, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, U_NA, U_NU, KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, KC_BSLS, \
-        KC_CAPS, U_NA,    KC_ALGR, U_NA,    U_NA,    U_NA, U_NU, KC_WH_L, KC_WH_D, KC_WH_U, KC_WH_R, KC_SCLN, \
-                                    U_NA, U_NA, U_NA, KC_BTN1, KC_BTN3, KC_BTN2
+        KC_LCTL, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, U_NA, U_NU, MS_LEFT, MS_DOWN, MS_UP, MS_RIGHT, KC_BSLS, \
+        KC_CAPS, U_NA,    KC_ALGR, U_NA,    U_NA,    U_NA, U_NU, MS_WHLL, MS_WHLD, MS_WHLU, MS_WHLR, KC_SCLN, \
+                                    U_NA, U_NA, U_NA, MS_BTN1, MS_BTN3, MS_BTN2
 /* ,-----------------------------------------.                ,-----------------------------------------.
    |  =   | RBT  |      |      |      |      |                |      |      |      |      |      |  -   |
    |------+------+------+------+------+------|                |------+------+------+------+------+------|
