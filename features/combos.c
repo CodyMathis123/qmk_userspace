@@ -82,7 +82,7 @@ bool combo_should_trigger(uint16_t combo_index, combo_t *combo, uint16_t keycode
         return false;
     }
     // Restrict combos to default layer except layer toggle combos
-    return (!layer_state) || (combo_index >= tog_num);
+    return (!layer_state);
 }
 
 void post_process_record_user(uint16_t keycode, keyrecord_t *record) {
