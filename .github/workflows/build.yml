@@ -27,7 +27,6 @@ jobs:
     - name: Checkout userspace
       uses: actions/checkout@main
       with:
-        path: users/${{ github.actor }}
         persist-credentials: false
 
     - name: Setup safe directory
